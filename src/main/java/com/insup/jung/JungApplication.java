@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JungApplication {
 
 	public static void main(String[] args) {
-		System.out.println("hello");
+		SpringApplication.run(JungApplication.class, args);
 	}
 
 }
